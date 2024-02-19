@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNews</title>
+    <!-- Agrega el enlace al archivo CSS de Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Vincula tu archivo CSS personalizado -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Icono -->
+    <link rel="icon" type="image/x-icon" href="img/xml_logo.png">
+</head>
+<body>
+  <!-- Navegación -->
+  <header class="bg-primary text-white">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-sm-3">
+          <img src="img/logo.png" alt="Logo" class="img-fluid">
+        </div>
+        <div class="col-sm-9">
+          <nav class="navbar navbar-expand-sm navbar-light">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="xml.html">XML</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="json.html">JSON</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header><br>
+
+  <!-- Carrusel -->
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/json_xml.png" class="d-block w-100" alt="imagen-comparativa">
+          </div>
+          <div class="carousel-item">
+            <img src="img/xml-vs-html.jpeg" class="d-block w-100" alt="imagen-xml">
+          </div>
+          <div class="carousel-item">
+            <img src="img/chica_programando.jpeg" class="d-block w-100" alt="imagen-programadora">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+  <div class="container-fluid">
+    <div class="row">
+        <!-- Menú lateral -->
+        <nav class="col-md-3 col-lg-2 d-md-block bg-light sidebar">
+          <div class="sidebar-sticky">
+              <ul class="nav flex-column">
+                  <aside>
+                      <h2>Categorías</h2>
+                      <ul>
+                        <li><a href="xml.html">XML</a></li>
+                        <li><a href="json.html">JSON</a></li>
+                      </ul>
+                      <h2>Últimos post</h2>
+                      <ul>
+                        <li><a href="json.html">JSON: Historia y sintaxis</a></li>
+                        <li><a href="index.html">Aplicaciones de XML y JSON</a></li>
+                      </ul>
+                      <h2>Redes Sociales</h2>
+                      <ul class="list-unstyled">
+                        <li><a href="https://twitter.com/usuario_twitter" target="_blank"><img class="imagen-flex" src="img/x_logo.jpg" alt="Twitter"></a></li>
+                        <li><a href="https://www.instagram.com/usuario_instagram" target="_blank"><img class="imagen-flex" src="img/Instagram_logo.png" alt="Instagram"></a></li>
+                        <li><a href="https://www.facebook.com/usuario_facebook" target="_blank"><img class="imagen-flex" src="img/facebook_logo.png" alt="Facebook"></a></li>
+                      </ul> 
+                    </aside>
+              </ul>
+          </div>
+      </nav>
+
+        <!-- Área principal -->
+        <main class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+          <h1><strong>XML y JSON: Un análisis comparativo para el ámbito empresarial</strong></h1>
+
+          <h2>Introducción</h2>
+        
+            <p>XML (Extensible Markup Language) y JSON (JavaScript Object Notation) son dos formatos de intercambio de datos ampliamente utilizados en el ámbito empresarial. Ambos permiten la representación estructurada de información, facilitando su intercambio entre diferentes sistemas y aplicaciones. Sin embargo, presentan diferencias significativas en cuanto a su historia, normas de uso, sintaxis y aplicaciones.</p>
+        
+          <h2>Normas de uso</h2>
+        
+            <p>XML se define mediante una serie de normas y recomendaciones del W3C. Estas normas establecen la sintaxis básica del lenguaje, así como las reglas para definir estructuras de datos complejas.</p>
+        
+            <p>JSON no tiene una especificación formal oficial. Sin embargo, existe un consenso general sobre la sintaxis y el uso del lenguaje. La comunidad de desarrolladores ha creado diversas bibliotecas y herramientas para facilitar el trabajo con JSON.</p>
+        
+          <h2>Sintaxis</h2>
+        
+            <p>La sintaxis de XML es compleja y verbosa. Se basa en etiquetas y atributos para definir la estructura de los datos.</p>
+
+            <p>La sintaxis de JSON es simple y legible para los humanos. Se basa en pares clave-valor y objetos para representar la estructura de los datos.</p>
+        
+          <h2>Aplicaciones en el ámbito empresarial</h2>
+
+            <p>XML se utiliza en una amplia variedad de aplicaciones empresariales, como:</p>
+        
+              <ul>
+                <li>Intercambio de documentos electrónicos (EDI)</li>
+                <li>Facturación electrónica</li>
+                <li>Almacenamiento de datos</li>
+                <li>Integración de sistemas</li>
+              </ul>
+
+            <p>JSON se utiliza principalmente en aplicaciones web y servicios RESTful, como:</p>
+        
+              <ul>
+                <li>Intercambio de datos entre aplicaciones web</li>
+                <li>APIs RESTful</li>
+                <li>Almacenamiento de datos NoSQL</li>
+              </ul>
+        
+          <h2>Conclusiones</h2>
+        
+            <p>XML y JSON son dos formatos de intercambio de datos con ventajas y desventajas. XML es más complejo y robusto, pero también más difícil de aprender y usar. JSON es más simple y fácil de usar, pero menos flexible que XML. La elección del formato adecuado dependerá de las necesidades específicas de cada proyecto.</p>
+        
+        </main>
+    </div>
+</div>
+
+
+<!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+<!-- Sección 1 del Footer -->
+            <div class="footer-section">
+                <h2>Webgrafía</h2>
+                <ul>
+                    <li><a href="https://aws.amazon.com/es/what-is/xml/#:~:text=El%20lenguaje%20de%20marcado%20extensible%20(XML)%20es%20un%20lenguaje%20de,de%20computaci%C3%B3n%20por%20s%C3%AD%20mismo." target="_blank">Página 1</a></li>
+                    <li><a href="https://blog.hubspot.es/website/que-es-json" target="_blank">Página 2</a></li>
+                    <li><a href="https://programarfacil.com/blog/xml-y-json-intercambiar-informacion/">Página 3</a></li>
+                </ul>
+            </div>
+
+<!-- Sección 2 del Footer -->
+            <div class="footer-section">
+                <h2>Contacto</h2>
+                <p>Dirección: CampusFP</p>
+                <p>Email: alvaro.hernandezsedeno.23@campusfp.es</p>
+            </div>
+
+<!-- Sección 3 del Footer con Formulario -->
+            <div class="footer-section">
+                <h2>Subscríbete</h2>
+                <form>
+                    <label for="email">y recibe noticias al instante</label>
+                    <input type="email" id="email" name="email" placeholder="Ingresa tu correo">
+                    <button type="submit">Subscribirse</button>
+                </form>
+            </div>
+        </div>
+
+<!-- Parte inferior del Footer con Copyright -->
+        <div class="footer-bottom">
+            <span class="far fa-copyright"></span><span> Copyright Tech News 2023.</span>
+        </div>
+    </footer>
+
+<!-- Agrega los archivos JS de Bootstrap al final del cuerpo del documento -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
